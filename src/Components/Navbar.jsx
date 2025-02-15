@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import logo from "../../public/Images/Logo.png";
+import logo from "../../public/Images/Logo.gif";
 import { IoMenuSharp } from "react-icons/io5";
 import { RiCloseLargeLine } from "react-icons/ri";
 import { Link } from "react-scroll";
@@ -67,13 +67,7 @@ function Navbar() {
         <div className="flex items-center justify-center h-20">
           {/* Left header */}
           <div className="w-3/10 flex space-x-3">
-            <img className="w-20 h-15" src={logo} alt="" />
-            <div className="flex-col">
-              <h1 className="text-5xl text-white hidden md:block">Cube</h1>
-              <p className="text-white uppercase hidden md:block">
-                Freight System
-              </p>
-            </div>
+            <img className="w-60 h-30" src={logo} alt="" />
           </div>
           {/* Right header */}
           <div className="w-7/10">

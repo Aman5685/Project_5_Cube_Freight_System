@@ -1,4 +1,4 @@
-import footerLogo from "../../public/Images/Logo.png";
+import footerLogo from "../../public/Images/Logo.gif";
 function Footer() {
   return (
     <>
@@ -6,7 +6,7 @@ function Footer() {
         <footer className="footer sm:footer-horizontal  text-base-content p-10">
           <aside>
             <img
-              className="w-30 h-30 fill-current bg-[#2B6BE7] rounded-full text-white"
+              className="w-30 h-30 fill-current rounded-full text-white"
               src={footerLogo}
               alt=""
             />
